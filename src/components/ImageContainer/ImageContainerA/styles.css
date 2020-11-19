@@ -1,0 +1,24 @@
+/* PARENT CONTAINER */
+.imgContainerA{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+/* IMAGE */
+.imgContainerA .imgWrapper{
+    flex-grow: 1;
+}
+.imgContainerA .imgWrapper img{
+    width: 100%;
+}
+/* CONTENT */
+.imgContainerA .imgContent .imgContent-header{
+    padding: 15px 0px;
+    color: var(--color-secondary);
+}
+.imgContainerA .imgContent .imgContent-body{
+    padding: 15px 0px;
+    color: var(--color-secondary);
+}

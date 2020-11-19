@@ -8,6 +8,7 @@ import CardD from './CardD';
 function Cards() {
     return (
         <div>
+            <br/>
             <CardA title={data.title}body={data.body}/>
             <br/>
             <CardB title={data.title}body={data.body}/>
@@ -15,6 +16,7 @@ function Cards() {
             <CardC title={data.title}body={data.body}/>
             <br/>
             <CardD title={data.title}body={data.body}/>
+            <br/>
         </div>
     )
 }

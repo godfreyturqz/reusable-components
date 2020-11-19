@@ -1,0 +1,24 @@
+/* PARENT CONTAINER */
+.imgContainerB{
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+/* IMAGE */
+.imgContainerB .imgWrapper{
+    flex-grow: 1;
+}
+.imgContainerB .imgWrapper img{
+    width: 100%;
+}
+/* CONTENT */
+.imgContainerB .imgContent .imgContent-header{
+    padding: 0px 0px 15px 15px;
+    color: var(--color-secondary);
+}
+.imgContainerB .imgContent .imgContent-body{
+    padding: 15px 0px 0px 15px;
+    color: var(--color-secondary);
+}
