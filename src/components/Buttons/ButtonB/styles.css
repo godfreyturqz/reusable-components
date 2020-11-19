@@ -1,0 +1,17 @@
+.ButtonB{
+    margin: 10px;
+    padding: 10px 30px;
+    background: #FFF;
+    border-radius: 5px;
+    color: var(--color-accent);
+    /* must have */
+    border: 1px solid var(--color-accent);
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.ButtonB:hover{
+    transition: all 0.3s ease-in-out;
+    background: var(--color-accent);
+    color: #FFF;
+}
