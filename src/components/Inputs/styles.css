@@ -1,0 +1,14 @@
+.input{
+    position: relative;
+}
+.input input{
+    position: relative;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 1px solid #676767;
+    font-size: 15px;
+    outline: none;
+}
+.input input:focus{
+    border: 2px solid #1a73e8;
+}
