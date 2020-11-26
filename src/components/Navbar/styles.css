@@ -1,0 +1,20 @@
+a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+}
+a:hover{
+    color:#9ca6c9;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background: #122464;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    width: 100%;
+    max-width: 800px;
+}
