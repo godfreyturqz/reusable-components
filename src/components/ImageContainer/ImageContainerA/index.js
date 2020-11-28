@@ -6,7 +6,7 @@ function ImageContainerA(props) {
     return (
         <div className="imgContainerA">
             <div className="imgWrapper">
-                <img src={props.image}/>
+                <img src={props.image} alt="sample"/>
             </div>
             <div className="imgContent">
                 <h1 class="imgContent-header">{props.title}</h1>

@@ -1,20 +1,21 @@
 a{
     text-decoration: none;
     color: #fff;
-    margin-right: 20px;
+    margin: 0px 20px;
+    outline: none;
 }
 a:hover{
     color:#9ca6c9;
 }
-.navbar{
+.navbar-container{
     display: flex;
     justify-content: center;
     background: #122464;
 }
-.wrapper{
+.navbar-wrapper{
     display: flex;
     justify-content: space-between;
-    padding: 10px 0px;
+    padding: 20px 0px;
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
 }
